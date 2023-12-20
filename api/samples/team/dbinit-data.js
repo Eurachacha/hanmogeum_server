@@ -522,6 +522,247 @@ export const initData = {
         isDecaf: true,
       },
     },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 18000,
+      show: true,
+      active: true,
+      name: "하동 쑥차 30g",
+      quantity: 180,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/200.png`,
+          fileName: "200.png",
+          orgName: "200.png",
+        },
+      ],
+      content: `<img alt="" class="se-image-resource" src="https://shop-phinf.pstatic.net/20220224_90/16456749477841VUEU_PNG/2.03_ssuk_main_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0303"], // 종류
+        taste: ["PC0401", "PC0403"], // 맛
+        hashTag: ["PC0501", "PC0503"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 21000,
+      show: true,
+      active: true,
+      name: "호박차 40g",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/201.png`,
+          fileName: "201.png",
+          orgName: "201.png",
+        },
+      ],
+      content: `
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg" size="1000px/5288px" filesize="2,59 MB" error="" src="/web/upload/NNEditor/20231215/2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0303"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0501", "PC0506"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 13000,
+      show: true,
+      active: true,
+      name: "호지차 30g",
+      quantity: 320,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/202.png`,
+          fileName: "202.png",
+          orgName: "202.png",
+        },
+      ],
+      content: `
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png" size="1000px/4866px" filesize="2,42 MB" error="" src="/web/upload/NNEditor/20230627/2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0401", "PC0404"], // 맛
+        hashTag: ["PC0513", "PC0515"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 27000,
+      show: true,
+      active: true,
+      name: "세작녹차 30g",
+      quantity: 300,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/203.png`,
+          fileName: "203.png",
+          orgName: "203.png",
+        },
+      ],
+      content: `
+        <div class="product-detail">
+          <p>상큼한 레몬과 톡 쏘는 탄산이 만나 탄생한 마시는 다이어트</p>
+        </div>`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0401", "PC0404"], // 맛
+        hashTag: ["PC0517", "PC0518", "PC0513"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 20000,
+      show: true,
+      active: true,
+      name: "목련현미녹차 40g",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/204.png`,
+          fileName: "204.png",
+          orgName: "204.png",
+        },
+      ],
+      content: `
+      <img alt="" class="se-image-resource" src="https://shop-phinf.pstatic.net/20220224_103/16456637303184n6o6_PNG/3.1_mhg_main_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0401", "PC0404"], // 맛
+        hashTag: ["PC0514", "PC0517", "PC0520"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 17000,
+      show: true,
+      active: true,
+      name: "하동 우엉뿌리차 50g",
+      quantity: 180,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/205.png`,
+          fileName: "205.png",
+          orgName: "205.png",
+        },
+      ],
+      content: `
+      <img alt="" class="se-image-resource" src="https://shop-phinf.pstatic.net/20220224_92/16456644757540AMoC_PNG/2.5_woo_main_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0303"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0511", "PC0514", "PC0522"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 18000,
+      show: true,
+      active: true,
+      name: "운남 홍차 - 연미 30g",
+      quantity: 175,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/206.png`,
+          fileName: "206.png",
+          orgName: "206.png",
+        },
+      ],
+      content: `
+      <img alt="" class="se-image-resource" src="https://shop-phinf.pstatic.net/20220224_141/1645665526061jxgw9_PNG/1.05_smoky_main_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0301"], // 종류
+        taste: ["PC0401", "PC0402"], // 맛
+        hashTag: ["PC0523"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 25000,
+      show: true,
+      active: true,
+      name: "경매 보이생차 30g",
+      quantity: 120,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/207.png`,
+          fileName: "207.png",
+          orgName: "207.png",
+        },
+      ],
+      content: `
+      <img alt="" class="se-image-resource" src="https://shop-phinf.pstatic.net/20220224_129/1645665165608eEapk_PNG/1.02_rawpuer_main_2.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0305"], // 종류
+        taste: ["PC0401", "PC0403"], // 맛
+        hashTag: ["PC0505", "PC0524"], //상황
+        isDecaf: false,
+      },
+    },
   ],
   // 주문
   order: [
@@ -532,30 +773,30 @@ export const initData = {
       products: [
         {
           _id: 2,
-          quantity: 10,
+          quantity: 1,
           seller_id: 2,
-          name: "자스민 플로럴 블랜딩 차 200g",
-          image: "/files/sample-dog.jpg",
-          price: 180000,
+          name: "경매 보이생차 30g",
+          image: "/files/207.png",
+          price: 25000,
           extra: {
             isNew: false,
             isBest: false,
-            pack: ["PC0101"],
-            teaType: ["PC0307"],
-            taste: ["PC0401", "PC0407"],
-            hashTag: ["PC0501", "PC0502", "PC0509"],
+            pack: ["PC0102"], // 형태
+            teaType: ["PC0305"], // 종류
+            taste: ["PC0401", "PC0403"], // 맛
+            hashTag: ["PC0505", "PC0524"], //상황
             isDecaf: false,
           },
         },
       ],
       cost: {
-        products: 180000,
+        products: 25000,
         shippingFees: 3500,
         discount: {
           products: 0,
-          shippingFees: 3500,
+          shippingFees: 0,
         },
-        total: 180000,
+        total: 28500,
       },
       shippingInfo: {
         name: "김철수",
@@ -564,172 +805,6 @@ export const initData = {
           name: "회사",
           value: "서울시 강남구 신사동 234",
           detailValue: "멋사빌딩 102호",
-        },
-      },
-      createdAt: getTime(-6, -60 * 60 * 3),
-      updatedAt: getTime(-6, -60 * 60 * 3),
-    },
-    {
-      _id: await nextSeq("order"),
-      user_id: 4,
-      state: "OS030",
-      products: [
-        {
-          _id: 1,
-          quantity: 1,
-          seller_id: 2,
-          name: "실속 분말 녹차",
-          image: "/files/sample-dog.jpg",
-          price: 9800,
-          extra: {
-            isNew: false,
-            isBest: false,
-            pack: ["PC0102"],
-            teaType: ["PC0306"],
-            taste: ["PC0401", "PC0407"],
-            hashTag: ["PC0502", "PC0513", "PC0507"],
-            isDecaf: false,
-          },
-        },
-      ],
-      cost: {
-        products: 9800,
-        shippingFees: 3500,
-        discount: {
-          products: 0,
-          shippingFees: 0,
-        },
-        total: 13300,
-      },
-      shippingInfo: {
-        name: "김멋사",
-        phone: "01011111111",
-        address: {
-          name: "회사",
-          value: "서울시 강남구 신사동 234",
-          detailValue: "멋사빌딩 102호",
-        },
-      },
-      createdAt: getTime(-6, -60 * 60 * 3),
-      updatedAt: getTime(-6, -60 * 60 * 3),
-    },
-    {
-      _id: await nextSeq("order"),
-      user_id: 4,
-      state: "OS030",
-      products: [
-        {
-          _id: 8,
-          quantity: 1,
-          seller_id: 2,
-          name: "크리스마스 플래티넘 블랙티",
-          image: "/files/sample-dog.jpg",
-          price: 16400,
-          extra: {
-            isNew: false,
-            isBest: false,
-            pack: ["PC0102"],
-            teaType: ["PC0301", "PC0303", "PC0302", "PC0305", "PC0306"],
-            taste: ["PC0401", "PC0405"],
-            hashTag: ["PC0508", "PC0509", "PC0510"],
-            isDecaf: false,
-          },
-        },
-        {
-          _id: 7,
-          quantity: 3,
-          seller_id: 2,
-          name: "한잎 어린 제주녹차",
-          image: "/files/sample-dog.jpg",
-          price: 20400,
-          extra: {
-            isNew: false,
-            isBest: false,
-            pack: ["PC0102"],
-            teaType: ["PC0302"],
-            taste: ["PC0406", "PC0405"],
-            hashTag: ["PC0507", "PC0502"],
-            isDecaf: false,
-          },
-        },
-      ],
-      cost: {
-        products: 36800,
-        shippingFees: 3500,
-        discount: {
-          products: 0,
-          shippingFees: 0,
-        },
-        total: 40300,
-      },
-      shippingInfo: {
-        name: "김멋사",
-        phone: "01011111111",
-        address: {
-          name: "회사",
-          value: "서울시 강남구 신사동 234",
-          detailValue: "멋사빌딩 102호",
-        },
-      },
-      createdAt: getTime(-6, -60 * 60 * 3),
-      updatedAt: getTime(-6, -60 * 60 * 3),
-    },
-    {
-      _id: await nextSeq("order"),
-      user_id: 5,
-      state: "OS030",
-      products: [
-        {
-          _id: 6,
-          quantity: 3,
-          seller_id: 2,
-          name: "봄 하루 한 잎 벚꽃",
-          image: "/files/sample-dog.jpg",
-          price: 42000,
-          extra: {
-            isNew: false,
-            isBest: false,
-            pack: ["PC0101"],
-            teaType: ["PC0307"],
-            taste: ["PC0407", "PC0405"],
-            hashTag: ["PC0511", "PC0509", "PC0507"],
-            isDecaf: false,
-          },
-        },
-        {
-          _id: 7,
-          quantity: 5,
-          seller_id: 2,
-          name: "한잎 어린 제주녹차",
-          image: "/files/sample-dog.jpg",
-          price: 34000,
-          extra: {
-            isNew: false,
-            isBest: false,
-            pack: ["PC0102"],
-            teaType: ["PC0302"],
-            taste: ["PC0406", "PC0405"],
-            hashTag: ["PC0507", "PC0502"],
-            isDecaf: false,
-          },
-        },
-      ],
-      cost: {
-        products: 76000,
-        shippingFees: 0,
-        discount: {
-          products: 0,
-          shippingFees: 0,
-        },
-        total: 76000,
-      },
-      shippingInfo: {
-        name: "김철수",
-        phone: "01012341234",
-        address: {
-          name: "집",
-          value: "서울시 강남구 역삼동 234",
-          detailValue: "멋사아파트 101동 101호",
         },
       },
       createdAt: getTime(-6, -60 * 60 * 3),
