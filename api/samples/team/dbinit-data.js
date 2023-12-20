@@ -867,7 +867,7 @@ export const initData = {
   // QnA, 공지사항, 게시판
   post: [],
   // 코드
-code: [
+  code: [
     {
       _id: "productCategory",
       title: "상품 카테고리",
@@ -1127,28 +1127,6 @@ code: [
           sort: 4,
           code: "OS045",
           value: "주문 취소",
-        },
-      ],
-    },
-  ],
-    {
-      _id: "orderState",
-      title: "주문 상태",
-      codes: [
-        {
-          sort: 1,
-          code: "OS030",
-          value: "배송 준비중",
-        },
-        {
-          sort: 2,
-          code: "OS035",
-          value: "배송중",
-        },
-        {
-          sort: 3,
-          code: "OS040",
-          value: "배송 완료",
         },
       ],
     },
