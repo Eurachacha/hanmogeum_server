@@ -368,7 +368,7 @@ export const initData = {
         isNew: false,
         isBest: false,
         pack: ["PC0103"],
-        teaType: ["PC0404"],
+        teaType: ["PC0302"],
         taste: ["PC0406"],
         hashTag: ["PC0506", "PC0516"],
         isDecaf: true,
