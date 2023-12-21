@@ -696,7 +696,7 @@ export const initData = {
       extra: {
         isNew: false,
         isBest: false,
-        pack: ["PC0101"], // 형태
+        pack: ["PC0102"], // 형태
         teaType: ["PC0303"], // 종류
         taste: ["PC0405"], // 맛
         hashTag: ["PC0511", "PC0514", "PC0522"], //상황
