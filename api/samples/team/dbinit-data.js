@@ -301,7 +301,7 @@ export const initData = {
           orgName: "300.png",
         },
       ],
-      content: `<img src="https://img.29cm.co.kr/next-product/2022/03/15/4a41c831ab89445684c218106d30c8d3_20220315130255.jpg?width=1000" alt="" loading="lazy" class="css-1vj2ua9 ekbeq0z2">`,
+      content: `<img src="https://img.29cm.co.kr/next-product/2022/03/31/3bd08a70bbe8404b9ca8702e3aacb5ae_20220331180421.jpg?width=1000" alt="" loading="lazy" class="css-1tenslb ekbeq0z2">`,
       createdAt: getTime(-41, -60 * 60 * 2),
       updatedAt: getTime(-40, -60 * 15),
       extra: {
@@ -470,7 +470,7 @@ export const initData = {
       price: 48000,
       show: true,
       active: true,
-      name: "한밤의 밀크티 스폐셜",
+      name: "한밤의 밀크티 스페셜",
       quantity: 1400,
       buyQuantity: 1000,
       mainImages: [
