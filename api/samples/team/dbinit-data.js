@@ -628,9 +628,7 @@ export const initData = {
         },
       ],
       content: `
-        <div class="product-detail">
-          <p>상큼한 레몬과 톡 쏘는 탄산이 만나 탄생한 마시는 다이어트</p>
-        </div>`,
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.01_green_main_2.png" size="1000px/4866px" filesize="2,23 MB" error="" src="/web/upload/NNEditor/20230426/2.01_green_main_2.png">`,
       createdAt: getTime(-41, -60 * 60 * 2),
       updatedAt: getTime(-40, -60 * 15),
       extra: {
