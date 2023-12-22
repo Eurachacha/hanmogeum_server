@@ -371,7 +371,7 @@ export const initData = {
         teaType: ["PC0302"],
         taste: ["PC0406"],
         hashTag: ["PC0506", "PC0516"],
-        isDecaf: true,
+        isDecaf: false,
       },
     },
     {
@@ -490,7 +490,7 @@ export const initData = {
         teaType: ["PC0301"],
         taste: ["PC0401", "PC0404", "PC0405"],
         hashTag: ["PC0502", "PC0505"],
-        isDecaf: true,
+        isDecaf: false,
       },
     },
     {
