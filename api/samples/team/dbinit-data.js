@@ -18,9 +18,10 @@ export const initData = {
       _id: await nextSeq("user"),
       email: "admin@market.com",
       password: "$2b$10$S.8GNMDyvUF0xzujPtHBu.j5gtS19.OhRmYbpJBnCHg2S83WLx1T2",
-      name: "무지",
+      name: "서비스관리자",
       phone: "01011112222",
       address: "서울시 강남구 역삼동 123",
+      detailAddress: "",
       type: "admin",
       createdAt: getTime(-100, -60 * 60 * 3),
       updatedAt: getTime(-100, -60 * 60 * 3),
@@ -30,9 +31,10 @@ export const initData = {
       _id: await nextSeq("user"),
       email: "s1@market.com",
       password: "$2b$10$S.8GNMDyvUF0xzujPtHBu.j5gtS19.OhRmYbpJBnCHg2S83WLx1T2",
-      name: "네오",
+      name: "상품관리자",
       phone: "01022223333",
       address: "서울시 강남구 삼성동 456",
+      detailAddress: "103동 111호",
       type: "seller",
       createdAt: getTime(-50),
       updatedAt: getTime(-30, -60 * 60 * 3),
@@ -40,23 +42,12 @@ export const initData = {
     },
     {
       _id: await nextSeq("user"),
-      email: "s2@market.com",
-      password: "$2b$10$S.8GNMDyvUF0xzujPtHBu.j5gtS19.OhRmYbpJBnCHg2S83WLx1T2",
-      name: "어피치",
-      phone: "01033334444",
-      address: "서울시 강남구 도곡동 789",
-      type: "seller",
-      createdAt: getTime(-40, -60 * 30),
-      updatedAt: getTime(-30, -60 * 20),
-      extra: {},
-    },
-    {
-      _id: await nextSeq("user"),
       email: "u1@market.com",
       password: "$2b$10$S.8GNMDyvUF0xzujPtHBu.j5gtS19.OhRmYbpJBnCHg2S83WLx1T2",
-      name: "제이지",
+      name: "한모금",
       phone: "01044445555",
       address: "서울시 강남구 논현동 222",
+      detailAddress: "1층",
       type: "user",
       createdAt: getTime(-20, -60 * 30),
       updatedAt: getTime(-10, -60 * 60 * 12),
@@ -81,7 +72,7 @@ export const initData = {
           orgName: "101.png",
         },
       ],
-      content: `<img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="E1848AE185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_01.jpeg" size="1000px/5424px" filesize="2,97 MB" error src="/web/upload/NNEditor/20231024/E1848AE185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_01.jpeg" />`,
+      content: `<img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="E1848AE185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_01.jpeg" size="1000px/5424px" filesize="2,97 MB" error src="https://magpie-and-tiger.com/web/upload/NNEditor/20231024/E1848AE185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_01.jpeg" />`,
       extra: {
         isNew: false,
         isBest: true,
@@ -108,7 +99,7 @@ export const initData = {
           orgName: "102.png",
         },
       ],
-      content: `<img src="/web/upload/NNEditor/20231024/mobile/https://magpie-and-tiger.com/web/upload/NNEditor/20231024/mobile/6621843f01e9615ae087161340198672_1698142189.jpeg" />`,
+      content: `<img data-result="success" data-name="copy-1678104215-1.1_E18487E185A9E1848BE185B5E18489E185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" data-size="1000px/3348px" data-filesize="2,28 MB" data-error style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" src="https://img.29cm.co.kr/item/202310/11ee73cdb2e4732da5b3b9c33c12995c.jpeg" />`,
       extra: {
         isNew: false,
         isBest: false,
@@ -135,7 +126,7 @@ export const initData = {
           orgName: "103.png",
         },
       ],
-      content: `<img src="/web/upload/NNEditor/20231101/mobile/7706c626eac06a7f0aa88fd8d04eec91_1698844704.jpeg" />`,
+      content: `<img src="https://magpie-and-tiger.com/web/upload/NNEditor/20231101/ED98B8EBB095ECB0A820ED8BB0EBB0B120EC8381EC84B8ED8E98EC9DB4ECA780201.jpeg" />`,
       extra: {
         isNew: false,
         isBest: false,
@@ -163,7 +154,7 @@ export const initData = {
           orgName: "104.png",
         },
       ],
-      content: `<img data-result="success" data-name="1.3_E18492E185A9E1848CE185B5E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" data-size="1000px/3348px" data-filesize="2,29 MB" data-error style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" src="/web/upload/NNEditor/20230306/1.3_E18492E185A9E1848CE185B5E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" />`,
+      content: `<img data-result="success" data-name="1.3_E18492E185A9E1848CE185B5E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" data-size="1000px/3348px" data-filesize="2,29 MB" data-error style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" src="https://magpie-and-tiger.com/web/upload/NNEditor/20230306/1.3_E18492E185A9E1848CE185B5E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" />`,
       extra: {
         isNew: false,
         isBest: false,
@@ -191,7 +182,7 @@ export const initData = {
           orgName: "105.png",
         },
       ],
-      content: `<img data-result="success" data-name="copy-1678104215-1.1_E18487E185A9E1848BE185B5E18489E185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" data-size="1000px/3348px" data-filesize="2,28 MB" data-error style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" src="/web/upload/NNEditor/20230306/copy-1678104215-1.1_E18487E185A9E1848BE185B5E18489E185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" />`,
+      content: `<img data-result="success" data-name="copy-1678104215-1.1_E18487E185A9E1848BE185B5E18489E185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" data-size="1000px/3348px" data-filesize="2,28 MB" data-error style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" src="https://magpie-and-tiger.com/web/upload/NNEditor/20230306/copy-1678104215-1.1_E18487E185A9E1848BE185B5E18489E185AEE186A8E1848EE185A120E18490E185B5E18487E185A2E186A8_1.png" />`,
       extra: {
         isNew: false,
         isBest: false,
@@ -568,7 +559,7 @@ export const initData = {
         },
       ],
       content: `
-      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg" size="1000px/5288px" filesize="2,59 MB" error="" src="/web/upload/NNEditor/20231215/2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg">`,
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg" size="1000px/5288px" filesize="2,59 MB" error="" src="https://magpie-and-tiger.com/web/upload/NNEditor/20231215/2.6_E18492E185A9E18487E185A1E186A8E1848EE185A1_02.jpeg">`,
       createdAt: getTime(-41, -60 * 60 * 2),
       updatedAt: getTime(-40, -60 * 15),
       extra: {
@@ -598,7 +589,7 @@ export const initData = {
         },
       ],
       content: `
-      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png" size="1000px/4866px" filesize="2,42 MB" error="" src="/web/upload/NNEditor/20230627/2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png">`,
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png" size="1000px/4866px" filesize="2,42 MB" error="" src="https://magpie-and-tiger.com/web/upload/NNEditor/20230627/2.620E18492E185A9E1848CE185B5E1848EE185A1_2.png">`,
       createdAt: getTime(-41, -60 * 60 * 2),
       updatedAt: getTime(-40, -60 * 15),
       extra: {
@@ -628,7 +619,7 @@ export const initData = {
         },
       ],
       content: `
-      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.01_green_main_2.png" size="1000px/4866px" filesize="2,23 MB" error="" src="/web/upload/NNEditor/20230426/2.01_green_main_2.png">`,
+      <img style="display: block; vertical-align: top; margin: 0px auto; text-align: center;" result="success" name="2.01_green_main_2.png" size="1000px/4866px" filesize="2,23 MB" error="" src="https://magpie-and-tiger.com/web/upload/NNEditor/20230426/2.01_green_main_2.png">`,
       createdAt: getTime(-41, -60 * 60 * 2),
       updatedAt: getTime(-40, -60 * 15),
       extra: {
