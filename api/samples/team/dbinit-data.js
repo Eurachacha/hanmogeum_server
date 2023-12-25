@@ -56,6 +56,7 @@ export const initData = {
   ],
   // 상품
   product: [
+    // 티백
     {
       _id: await nextSeq("product"),
       seller_id: 2,
@@ -278,6 +279,268 @@ export const initData = {
     {
       _id: await nextSeq("product"),
       seller_id: 2,
+      price: 13000,
+      show: true,
+      active: true,
+      name: "메론우롱 20티백",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/110.png`,
+          fileName: "110.png",
+          orgName: "110.png",
+        },
+      ],
+      content: `<img src="https://ai.esmplus.com/sktea00/ILSANGDAWAN_RENEW/melonoolong_1000.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0304"], // 종류
+        taste: ["PC0401", "PC0404"], // 맛
+        hashTag: ["PC0524", "PC0505", "PC0517"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 13000,
+      show: true,
+      active: true,
+      name: "피치우롱 20티백",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/111.png`,
+          fileName: "111.png",
+          orgName: "111.png",
+        },
+      ],
+      content: `<img src="https://gi.esmplus.com/sktea1129/ticlips/230110_Ticlips_PeachOolong_detail_1000.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0304"], // 종류
+        taste: ["PC0401", "PC0404"], // 맛
+        hashTag: ["PC0524", "PC0508", "PC0517"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 11700,
+      show: true,
+      active: true,
+      name: "해피 체리블렌딩 5티백",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/112.png`,
+          fileName: "112.png",
+          orgName: "112.png",
+        },
+      ],
+      content: `<img alt="" style="max-width: 100%" src="https://img.29cm.co.kr/item/202310/11ee6cc2f83c71b58a7fd500c88753d5.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0308"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0524", "PC0508", "PC0517"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 12900,
+      show: true,
+      active: true,
+      name: "자스민 우롱 민트 블렌드 티백 10개입",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/113.png`,
+          fileName: "113.png",
+          orgName: "113.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2023/05/24/cb9dfb9768f54357b5a980c7a5d85c2e_20230524172529.jpg?width=1000" alt="포지티브 민티 우롱 티백" loading="lazy" class="css-1p5uzkj ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0514", "PC0505", "PC0506", "PC0518"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 12800,
+      show: true,
+      active: true,
+      name: "시그니처 블랜딩 퍼플 8개입",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/114.png`,
+          fileName: "114.png",
+          orgName: "114.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2021/02/10/b55e680a19924b7e8fb2654f4a01a83e_20210210161429.jpg?width=1000" alt="" loading="lazy" class="css-1q6g1a1 ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0301"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0510", "PC0502", "PC0503"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 12800,
+      show: true,
+      active: true,
+      name: "시그니처 블랜딩 서울의 달",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/115.png`,
+          fileName: "115.png",
+          orgName: "115.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2021/02/10/019ecccc983949e3a3cbaa0b7a571dd2_20210210160433.jpg?width=1000" alt="" loading="lazy" class="css-14tpv66 ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0403"], // 맛
+        hashTag: ["PC0523", "PC0520", "PC0505"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 45000,
+      show: true,
+      active: true,
+      name: "백련홍련 연꽃차 ",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/116.png`,
+          fileName: "116.png",
+          orgName: "116.png",
+        },
+      ],
+      content: `<img src="https://ai.esmplus.com/sktea00/ILSANGDAWAN_RENEW/leaf_tea_lotus_flower_1000.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0307"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0514", "PC0518", "PC0519", "PC0520"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 45000,
+      show: true,
+      active: true,
+      name: "수국유자 12티백 ",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/117.png`,
+          fileName: "117.png",
+          orgName: "117.png",
+        },
+      ],
+      content: `<img src="//gi.esmplus.com/sktea1129/product/1000/210824_eMart_TeaMasterCan_SweetCitron_1.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0518", "PC0517", "PC0524"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 8900,
+      show: true,
+      active: true,
+      name: "루이보스 바닐라 10티백",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/118.png`,
+          fileName: "118.png",
+          orgName: "118.png",
+        },
+      ],
+      content: `<img src="https://ai.esmplus.com/sktea00/product_detail/2023/homeplus_rooibos/vanilla/231019_homeplus_Rooibos_Vanilla_detail_1000_9.gif">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0101"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0505", "PC0524", "PC0520"], //상황
+        isDecaf: false,
+      },
+    },
+    // 분말
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
 
       price: 17500,
       show: true,
@@ -360,7 +623,7 @@ export const initData = {
         isBest: false,
         pack: ["PC0103"],
         teaType: ["PC0302"],
-        taste: ["PC0406"],
+        taste: ["PC0404"],
         hashTag: ["PC0506", "PC0516"],
         isDecaf: false,
       },
@@ -395,6 +658,183 @@ export const initData = {
         isDecaf: false,
       },
     },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 5300,
+      show: true,
+      active: true,
+      name: "콤부차 차두",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/310.png`,
+          fileName: "310.png",
+          orgName: "310.png",
+        },
+      ],
+      content: `
+      <img src="https://gi.esmplus.com/sktea1129/product/1000/2023/230619_Online_Soodal_KombuchaPlum_detail_1000_11.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0402", "PC0401"], // 맛
+        hashTag: ["PC0506", "PC0504", "PC0524"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 5300,
+      show: true,
+      active: true,
+      name: "콤부차 레몬",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/311.png`,
+          fileName: "311.png",
+          orgName: "311.png",
+        },
+      ],
+      content: `<img src="https://gi.esmplus.com/sktea1129/product/1000/2023/230619_Online_Soodal_KombuchaLemon_detail_1000_11.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0402", "PC0401"], // 맛
+        hashTag: ["PC0506", "PC0504", "PC0524"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 34000,
+      show: true,
+      active: true,
+      name: "신선한 제주 녹차 세작",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/312.png`,
+          fileName: "312.png",
+          orgName: "312.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2022/03/15/945e2a0e90ad472fa98ebfd107ba7441_20220315124003.jpg?width=1000" alt="" loading="lazy" class="css-1vj2ua9 ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0403"], // 맛
+        hashTag: ["PC0506", "PC0514"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 45000,
+      show: true,
+      active: true,
+      name: "향긋한 제주홍차",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/313.png`,
+          fileName: "313.png",
+          orgName: "312.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2022/03/15/c8333b372bbe4dc08a5c5eae764cf7ae_20220315111021.jpg?width=1000" alt="" loading="lazy" class="css-1vj2ua9 ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0301"], // 종류314
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0516", "PC0512", "PC0523"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 20000,
+      show: true,
+      active: true,
+      name: "시나몬 프레소",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/314.png`,
+          fileName: "314.png",
+          orgName: "314.png",
+        },
+      ],
+      content: `<img alt="" style="max-width: 100%" src="https://img.29cm.co.kr/item/202309/11ee4ef008947b1ba5b32f79f31a8d51.png">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0308"], // 종류
+        taste: ["PC0401", "PC0403"], // 맛
+        hashTag: ["PC0502", "PC0508", "PC0524"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 32000,
+      show: true,
+      active: true,
+      name: "유기농 쑥말차",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/315.png`,
+          fileName: "315.png",
+          orgName: "314.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2021/11/16/e00138aec7c047718026c61722dfa3d5_20211116162236.jpg?width=1000" alt="" loading="lazy" class="css-5ql586 ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0103"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0403"], // 맛
+        hashTag: ["PC0506", "PC0512", "PC0511"], //상황
+        isDecaf: false,
+      },
+    },
+
+    // 액상
     {
       _id: await nextSeq("product"),
       seller_id: 2,
@@ -513,6 +953,98 @@ export const initData = {
         isDecaf: true,
       },
     },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 18400,
+      show: true,
+      active: true,
+      name: "제로 슈가 말차",
+      quantity: 175,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/410.png`,
+          fileName: "410.png",
+          orgName: "410.png",
+        },
+      ],
+      content: `
+		<img src="https://gi.esmplus.com/witchkitch/--/%EC%A0%9C%EB%A1%9C%EB%A7%90%EC%B0%A8/20g/story06.gif">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0104"], // 형태
+        teaType: ["PC0302"], // 종류
+        taste: ["PC0401", "PC0403"], // 맛
+        hashTag: ["PC0521", "PC0510"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 20000,
+      show: true,
+      active: true,
+      name: "허니플라워 오미자 청",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/411.png`,
+          fileName: "411.png",
+          orgName: "411.png",
+        },
+      ],
+      content: `
+		<img src="//gi.esmplus.com/sktea1129/product/new/200723_ILSANGDAWAN_Omija_detail_1000_4.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0104"], // 형태
+        teaType: ["PC0308"], // 종류
+        taste: ["PC0401", "PC0402"], // 맛
+        hashTag: ["PC0517", "PC0524", "PC0506"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 20000,
+      show: true,
+      active: true,
+      name: "숙성망고가 들어있는 패션망고청",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/412.png`,
+          fileName: "412.png",
+          orgName: "412.png",
+        },
+      ],
+      content: `
+		<img src="https://img.29cm.co.kr/next-product/2022/06/13/763e1e38809a441fbace8c6d293682e4_20220613133608.jpg?width=1000" alt="" loading="lazy" class="css-1ebzexv ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0308"], // 종류
+        taste: ["PC0401"], // 맛
+        hashTag: ["PC0508", "PC0524", "PC0510"], //상황
+        isDecaf: false,
+      },
+    },
+
+    // 잎차
     {
       _id: await nextSeq("product"),
       seller_id: 2,
@@ -750,6 +1282,180 @@ export const initData = {
         taste: ["PC0401", "PC0403"], // 맛
         hashTag: ["PC0505", "PC0524"], //상황
         isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 21000,
+      show: true,
+      active: true,
+      name: "가을 향 루이보스",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/210.png`,
+          fileName: "210.png",
+          orgName: "210.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2022/08/09/7f42c4879a69426791c3e9b6c429cfbc_20220809134945.png?width=1000" alt="" loading="lazy" class="css-1tl5v1p ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0405", "PC0402"], // 맛
+        hashTag: ["PC0509", "PC0514", "PC0524", "PC0505"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 15200,
+      show: true,
+      active: true,
+      name: "보이차 다도 선물세트",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/211.png`,
+          fileName: "211.png",
+          orgName: "211.png",
+        },
+      ],
+      content: `<img alt="" style="max-width: 100%" src="https://img.29cm.co.kr/item/202310/11ee724218c2792983bc45a266098679.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0305"], // 종류
+        taste: ["PC0404", "PC0405"], // 맛
+        hashTag: ["PC0502", "PC0512", "PC0523"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 36000,
+      show: true,
+      active: true,
+      name: "로즈 블렌딩 티",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/212.png`,
+          fileName: "212.png",
+          orgName: "212.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2021/07/15/8b137b0a99614ca79486ef2ac99e078b_20210715105041.png?width=1000" alt="" loading="lazy" class="css-1oh8ngj ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0514", "PC0505", "PC0518"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 14000,
+      show: true,
+      active: true,
+      name: "그린 루이보스",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/213.png`,
+          fileName: "213.png",
+          orgName: "213.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2022/09/14/eff394f84b3c4ffdadafd7bebde5790e_20220914132813.jpg?width=1000" alt="" loading="lazy" class="css-1uqzbxw ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0306"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0506", "PC0517", "PC0520"], //상황
+        isDecaf: true,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 39000,
+      show: true,
+      active: true,
+      name: "매화 우롱차",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/214.png`,
+          fileName: "214.png",
+          orgName: "214.png",
+        },
+      ],
+      content: `<img src="https://img.29cm.co.kr/next-product/2020/09/08/f9b94507be474a92a5c6227589ae06e1_20200908143640.jpg?width=1000" alt="" loading="lazy" class="css-1yau91r ekbeq0z2">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0304"], // 종류
+        taste: ["PC0403"], // 맛
+        hashTag: ["PC0512", "PC0505", "PC0516"], //상황
+        isDecaf: false,
+      },
+    },
+    {
+      _id: await nextSeq("product"),
+      seller_id: 2,
+      price: 28000,
+      show: true,
+      active: true,
+      name: "금잔화 꽃차",
+      quantity: 200,
+      buyQuantity: 0,
+      mainImages: [
+        {
+          url: `/files/215.png`,
+          fileName: "215.png",
+          orgName: "215.png",
+        },
+      ],
+      content: `<img src="//gi.esmplus.com/sktea1129/product/new/sk_cl_n02_02.jpg">`,
+      createdAt: getTime(-41, -60 * 60 * 2),
+      updatedAt: getTime(-40, -60 * 15),
+      extra: {
+        isNew: false,
+        isBest: false,
+        pack: ["PC0102"], // 형태
+        teaType: ["PC0307"], // 종류
+        taste: ["PC0405"], // 맛
+        hashTag: ["PC0518", "PC0520", "PC0514"], //상황
+        isDecaf: true,
       },
     },
   ],
